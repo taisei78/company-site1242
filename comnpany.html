@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="destyle.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>会社概要</title>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="head-img">
+        <img src="./img/pc_mv.jpg" alt="">
+        <h2 class="head-img-text">会社概要</h2>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="company-info">
+                <ul class="company-info-list">
+                    <li>
+                        <p class="info-title">社名</p>
+                        <p class="info-text">株式会社START</p>
+                    </li>
+                    <li>
+                        <p class="info-title">設立</p>
+                        <p class="info-text">2025.07.08</p>
+                    </li>
+                    <li>
+                        <p class="info-title">代表取締役</p>
+                        <p class="info-text">ジョニー・デップ</p>
+                    </li>
+                    <li>
+                        <p class="info-title">資本金</p>
+                        <p class="info-text">10,000,000</p>
+                    </li>
+                    <li>
+                        <p class="info-title">所在地</p>
+                        <p class="info-text">〒555-5555 東京都千代田区 スタートビルディング 606</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="company-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6647.195815826948!2d130.4162204931114!3d33.58978777255864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191c7e6f9b375%3A0x2ee22b3d45b98b90!2z5Y2a5aSa6aeF!5e0!3m2!1sja!2sjp!4v1670311626391!5m2!1sja!2sjp"
+                    width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a
+                    href="https://www.google.com/maps?ll=33.589728,130.420727&z=14&t=m&hl=ja&gl=JP&mapclient=embed&cid=3378310212644080528">Googleマップで見る</a>
+            </div>
+            <div class="company-news">
+                <ul class="news-list">
+                    <li>
+                        <a href="#">
+                            <p class="news-date">2030.02.10</p>
+                            <p class="news-title">コーポレートサイトをリニューアルしました。</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="news-date">2030.02.05</p>
+                            <p class="news-title">採用を強化中です！一緒に働きませんか？</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="news-date">2030.02.01</p>
+                            <p class="news-title">人材紹介SNS『スタート』をリリースしました。3/31まで新規登録キャンペーンを開催中です。サービス内で使える500ptをプレゼント！
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer"></div>
+</body>
+
+</html>
